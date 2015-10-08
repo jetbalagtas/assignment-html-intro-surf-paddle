@@ -1,3 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*background image with blended color*/
 header {
-  
+  width: 100%;
+  height: 350px;
+  background-image: url(images/waves.jpeg);
+  background-position: top;
+  background-repeat: none;
+  background-color: lightblue;
+  background-blend-mode: multiply;
+}
+
+/*override webkit on ul*/
+nav ul {
+  margin-top: inherit;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 1em;
+  color: darkgray;
+}
+
+/*center & size the header & footer navs*/
+nav {
+  width: 75%;
+  margin: auto;
+}
+
+/*set position of left header & footer navs*/
+.hotspot {
+  position:absolute;
+  padding-left: 0;
+}
+
+/*set position of right header & footer navs*/
+.coldspot {
+  text-align: right;
+}
+
+li a {
+  text-decoration: none;
+  color: darkgray;
 }
