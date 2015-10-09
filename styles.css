@@ -73,6 +73,7 @@ li a {
 .moar-posts {
   font-size: 3em;
   color: #063040;
+  margin-top: 150px;
 }
 
 section.container {
@@ -85,11 +86,17 @@ section.container {
   display: inline-block;
 }
 */
+
+.cols {
+  vertical-align: top;
+  display: inline-block;
+}
+
 .post-content {
   width: 64%;
 }
 
 .sidebar {
-  float: right;
   width: 24%;
+  padding-left: 70px;
 }
