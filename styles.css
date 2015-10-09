@@ -48,3 +48,27 @@ li a {
   text-decoration: none;
   color: darkgray;
 }
+
+/*class to ease positioning & keep 'DRY'*/
+.callout {
+  text-align: center;
+}
+
+.callout li {
+  display: inline-block;
+  font-family: Ubuntu, sans-serif;
+}
+
+.big-brand {
+  font-size: 5em;
+  color: white;
+}
+
+.small-brand {
+  font-size: 1em;
+  color: gray;
+}
+
+.moar-posts {
+
+}
