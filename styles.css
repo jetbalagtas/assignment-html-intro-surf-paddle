@@ -3,17 +3,6 @@ body {
   padding: 0;
 }
 
-@media (min-width: 400px) and (max-width: 400px) {
-  .hotspot {
-    display: none;
-  }
-}
-@media (min-width: 400px) and (max-width: 400px) {
-    nav .coldspot {
-    text-align: center;
-  }
-}
-
 /*background image with blended color*/
 header {
   width: 100%;
@@ -32,7 +21,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 40px;
   font-family: Ubuntu, sans-serif;
   font-size: 1em;
   color: darkgray;
@@ -46,13 +35,21 @@ nav {
 
 /*set position of left header & footer navs*/
 .hotspot {
-  position:absolute;
+  position: absolute;
   padding-left: 0;
+}
+
+#logo img {
+  margin-top: -30px;
 }
 
 /*set position of right header & footer navs*/
 .coldspot {
   text-align: right;
+}
+
+.coldspot ul{
+  padding-left: 0;
 }
 
 li a {
@@ -110,4 +107,35 @@ section.container {
 .sidebar {
   width: 24%;
   padding-left: 70px;
+}
+
+@media (min-width: 400px) and (max-width: 400px) {
+  #breadcrumb {
+    display: none;
+  }
+}
+@media (min-width: 400px) and (max-width: 400px) {
+  .coldspot {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+@media (min-width: 400px) and (max-width: 400px) {
+  #logo {
+    padding-top: 80px;
+    padding-left: 120px;
+    text-align: center;
+  }
+}
+@media (min-width: 400px) and (max-width: 400px) {
+  .big-brand {
+    font-size: 2em;
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 400px) {
+    header {
+      height: 260px;
+    }
 }
