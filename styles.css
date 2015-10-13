@@ -14,7 +14,7 @@ header {
   background-blend-mode: multiply;
 }
 
-/*override webkit on ul*/
+/*top navigation*/
 nav ul {
   margin-top: inherit;
 }
@@ -27,7 +27,6 @@ nav ul li {
   color: darkgray;
 }
 
-/*center & size the header & footer navs*/
 nav {
   width: 75%;
   margin: auto;
@@ -57,7 +56,7 @@ li a {
   color: darkgray;
 }
 
-/*class to ease positioning & keep 'DRY'*/
+/*positioning for header branding and popular posts*/
 .callout {
   text-align: center;
 }
@@ -78,22 +77,11 @@ li a {
   color: #837d7d;
 }
 
-.moar-posts {
-  font-size: 3em;
-  color: #063040;
-  margin-top: 150px;
-}
-
-section.container {
+/*content body*/
+.container {
   width: 75%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 20px auto;
 }
-/*
-.cols {
-  vertical-align: top;
-  display: inline-block;
-}
-*/
 
 .cols {
   vertical-align: top;
@@ -108,6 +96,54 @@ section.container {
   width: 24%;
   padding-left: 70px;
 }
+
+.moar-posts {
+  font-size: 3em;
+  color: #063040;
+  margin-top: 20px;
+}
+
+/*images for popular posts section*/
+.widebody {
+  width: 100%;
+}
+
+.posts-feat-imgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  /*width: 100%;*/
+  /*height: 320px;
+  overflow: hidden;
+  padding: 0;*/
+}
+
+.fp-img {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
+  width: 25%;
+  height: 320px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  /*width: 24.7%;
+  display: inline-block;
+  vertical-align: top;*/
+  /*background-color: #5bc7f0;
+  background-blend-mode: exclusion;*/
+}
+
+.fp-img img {
+  /*background-position: center;*/
+  background-color: #5bc7f0;
+  background-blend-mode: exclusion;
+}
+
+
 
 @media (min-width: 400px) and (max-width: 400px) {
   #breadcrumb {
@@ -133,9 +169,41 @@ section.container {
     margin-top: 80px;
   }
 }
-
+@media (min-width: 400px) and (max-width: 400px) {
+  .small-brand {
+    font-size: .9em;
+    }
+}
 @media (min-width: 400px) and (max-width: 400px) {
     header {
       height: 260px;
+      background-position: left;
     }
+}
+@media (min-width: 400px) and (max-width: 400px) {
+    .post-content, .sidebar {
+      width: 98%;
+      padding-left: 0;
+    }
+}
+@media (min-width: 400px) and (max-width: 400px) {
+  .container {
+    margin: 30px auto 20px auto;
+  }
+}
+@media (min-width: 400px) and (max-width: 400px) {
+  .moar-posts {
+    font-size: 2em;
+  }
+}
+@media (min-width: 400px) and (max-width: 400px) {
+  .widebody {
+    width: 75%;
+    padding-left: 45px;
+  }
+}
+@media (min-width: 400px) and (max-width: 400px) {
+  .fp-img {
+    padding-top: 20px;
+  }
 }
