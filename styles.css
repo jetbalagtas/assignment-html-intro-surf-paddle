@@ -147,64 +147,64 @@ li a {
 
 
 
-@media (min-width: 400px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 320px) {
   #breadcrumb {
     display: none;
   }
 }
-@media (min-width: 400px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 320px) {
   .coldspot {
     text-align: center;
     padding-left: 0;
   }
 }
-@media (min-width: 400px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 320px) {
   #logo {
     padding-top: 80px;
-    padding-left: 120px;
+    padding-left: 100px;
     text-align: center;
   }
 }
-@media (min-width: 400px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 320px) {
   .big-brand {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 80px;
   }
 }
-@media (min-width: 400px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 320px) {
   .small-brand {
-    font-size: .9rem;
+    font-size: .75rem;
     }
 }
-@media (min-width: 400px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 320px) {
     header {
       height: 260px;
       background-position: left;
     }
 }
-@media (min-width: 400px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 320px) {
     .post-content, .sidebar {
       width: 98%;
       padding-left: 0;
     }
 }
-@media (min-width: 400px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 320px) {
   .container {
     margin: 30px auto 20px auto;
   }
 }
-@media (min-width: 400px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 320px) {
   .moar-posts {
     font-size: 2rem;
   }
 }
-@media (min-width: 400px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 320px) {
   .widebody {
     width: 75%;
     padding-left: 45px;
   }
 }
-@media (min-width: 400px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 320px) {
   .fp-img {
     padding-top: 20px;
   }
